@@ -1,0 +1,53 @@
+.acard{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    background-color: var(--white-comp);
+    transition: 0.5s all;
+    cursor: pointer;
+}
+.aimage{
+    position: relative;
+}
+.delete{
+    position: absolute;
+    color: red;
+    font-size: 25px;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.delete:hover{
+    font-size: 30px;
+}
+.acard:hover{
+    transform: scale(1.03, 1.03);
+}
+.aimage .image{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.ameta{
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 5px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.atitle{
+    text-transform: capitalize;
+    font-size: 15px;
+    padding: 0px 5px;
+}
+.adesc{
+    text-transform: capitalize;
+    text-align: justify;
+    font-size: 12px;
+    padding: 0px 5px;
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 3; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}

@@ -1,0 +1,50 @@
+:root{
+    --black-body: #1B203D;
+    --black-comp: #272C4A;
+    --white-body: #ECEAED;
+    --white-comp: #FEFEFE;
+}
+.admin{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: var(--white-body);
+    padding: 2rem;
+}
+.admin h1{
+    padding-left: 10px;
+    font-weight: bold;
+}
+.container{
+    margin-top: 3rem;
+    height: 100%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form .inputs{
+    display: flex;
+}
+.form .input{
+    width: 50%;
+    padding-right: 10px;
+}
+.form .button{
+    margin-top: 2.5rem;
+    border-radius: 0px;
+    margin-bottom: 1rem;
+}
+.form .image label{
+    padding-right: 10px;
+}
+@media screen and (max-width: 600px){
+    .form .inputs{
+        display: flex;
+        flex-direction: column;
+    }
+    .form .input{
+        width: 100%;
+        padding-right: 10px;
+    }
+}

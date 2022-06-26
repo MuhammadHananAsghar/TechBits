@@ -1,0 +1,40 @@
+:root {
+  --black-body: #1b203d;
+  --black-comp: #272c4a;
+  --white-body: #eceaed;
+  --white-comp: #fefefe;
+}
+
+.marticle {
+  background-color: var(--white-comp);
+  height: 100vh;
+}
+.mimage {
+  position: relative;
+}
+.mimage .image {
+  width: 100%;
+  filter: blur(4px);
+}
+.mdetails {
+  color: #fefefe;
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+}
+.mdetails span {
+  margin-right: 10px;
+}
+.mdesc p {
+  font-size: 15px;
+  padding: 1rem;
+  text-align: justify;
+}
+.micon {
+  color: #fefefe;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  font-size: 25px;
+  cursor: pointer;
+}

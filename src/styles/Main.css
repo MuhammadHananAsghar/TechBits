@@ -1,0 +1,43 @@
+:root{
+    --black-body: #1B203D;
+    --black-comp: #272C4A;
+    --white-body: #ECEAED;
+    --white-comp: #FEFEFE;
+}
+.body{
+    background-color: var(--white-body);
+}
+.body .body-articles .button .buttonArticle{
+    font-size: 20px;
+    font-weight: 500;
+}
+.body .body-articles{
+    padding: 1rem;
+}
+.body .body-articles .button{
+    display: flex;
+    justify-content: flex-end;
+}
+.body .body-articles .body{
+    margin-top: 2rem;
+}
+.body .body-articles .body .title{
+    font-size: 22px;
+    font-weight: 500;
+}
+.body .body-articles .body .abody{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+@media screen and (max-width: 1000px){
+    .body .body-articles .body .abody{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 700px){
+    .body .body-articles .body .abody{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

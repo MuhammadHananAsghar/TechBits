@@ -1,0 +1,20 @@
+.navbarr{
+    padding: 0px 10px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white-comp);
+}
+.navbarr h1{
+    padding-top: 5px;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #117A65;
+}
+.navbarr h1 span{
+    color: #000;
+}
